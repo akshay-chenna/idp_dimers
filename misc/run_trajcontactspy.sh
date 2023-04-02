@@ -1,0 +1,6 @@
+cd $PBS_O_WORKDIR
+
+source ~/apps/scripts/source_conda.sh
+conda activate py310
+
+python trajectory_contacts.py
